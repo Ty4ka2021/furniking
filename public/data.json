@@ -1,0 +1,714 @@
+[
+	{
+		"id": "1",
+		"imageUrl": "https://www.naturalbedcompany.co.uk/wp-content/uploads/WALNUT-LEITH-MODERN-BED-WITH-CHARCOAL-LINEN-BEDDING.jpg",
+		"title": "Modern Wooden Bed",
+		"price": 500,
+		"rating": 4.8,
+		"category": "Furniture"
+	},
+	{
+		"id": "2",
+		"imageUrl": "https://i1.adis.ws/i/fv/PRODZFRSP000000000044135_osaka_dining-set__lifestyle?$medium$&w=579&fmt=webp",
+		"title": "Oak Dining Table",
+		"price": 750,
+		"rating": 4.5,
+		"category": "Furniture"
+	},
+	{
+		"id": "3",
+		"imageUrl": "https://www.modernmiami.com/media/catalog/product/cache/6d4faa98f2b48c05dae02148ead85f2f/4/0/4087_12833_4087_brownbeige_9-19-2016_hr_01.jpg",
+		"title": "Leather Sectional Sofa",
+		"price": 1200,
+		"rating": 4.9,
+		"category": "Furniture"
+	},
+	{
+		"id": "4",
+		"imageUrl": "https://fmfatelier.com/wp-content/uploads/2022/05/FM-F-103_mod.jpg",
+		"title": "Elegant Wardrobe",
+		"price": 800,
+		"rating": 4.7,
+		"category": "Furniture"
+	},
+	{
+		"id": "5",
+		"imageUrl": "https://m.media-amazon.com/images/I/41fgKjUgxeL.jpg",
+		"title": "Vintage Writing Desk",
+		"price": 350,
+		"rating": 4.4,
+		"category": "Furniture"
+	},
+	{
+		"id": "6",
+		"imageUrl": "https://www.thespruce.com/thmb/9z0s4lplxQgF8cD9PG9_RcsKr6Q=/3000x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-andover-mills-leni-manual-standard-recliner-33.5in-wide-taupe-jay-wilde-photo-01-ffd87b9fb08542a6b81575f84fdedcb4.jpg",
+		"title": "Comfortable Recliner Chair",
+		"price": 400,
+		"rating": 4.6,
+		"category": "Furniture"
+	},
+	{
+		"id": "7",
+		"imageUrl": "https://img.archiexpo.com/images_ae/photo-g/148313-10524453.webp",
+		"title": "Contemporary Coffee Table",
+		"price": 250,
+		"rating": 4.3,
+		"category": "Furniture"
+	},
+	{
+		"id": "8",
+		"imageUrl": "https://shelf-co.com/cdn/shop/files/yomo_step_x800.jpg?v=1660161569",
+		"title": "Modular Bookshelf",
+		"price": 300,
+		"rating": 4.8,
+		"category": "Furniture"
+	},
+	{
+		"id": "9",
+		"imageUrl": "https://images-cdn.ubuy.co.in/634fc7b367994651a414fdf5-floor-tv-stand-base-with-swivel-mount.jpg",
+		"title": "Sleek TV Stand",
+		"price": 200,
+		"rating": 4.5,
+		"category": "Furniture"
+	},
+	{
+		"id": "10",
+		"imageUrl": "https://m.media-amazon.com/images/I/81t7CK5t2KL.jpg",
+		"title": "Outdoor Patio Set",
+		"price": 850,
+		"rating": 4.9,
+		"category": "Furniture"
+	},
+	{
+		"id": "11",
+		"imageUrl": "https://m.media-amazon.com/images/I/71WAFpiuTBL._AC_UF1000,1000_QL80_.jpg",
+		"title": "Metal Wall Art",
+		"price": 80,
+		"rating": 4.7,
+		"category": "Armature"
+	},
+	{
+		"id": "12",
+		"imageUrl": "https://pyxis.nymag.com/v1/imgs/805/75b/f05a082e11f9a3ce60806542582f70f94a-silk-ficus-tree.2x.rsquare.w600.jpg",
+		"title": "Artificial Indoor Plants",
+		"price": 45,
+		"rating": 4.4,
+		"category": "Armature"
+	},
+	{
+		"id": "13",
+		"imageUrl": "https://sghome.in/pub/media/catalog/product/cache/f78377a030d23b75d8563b0783d341ac/a/i/aip04374.jpg",
+		"title": "Stylish Candle Holders",
+		"price": 25,
+		"rating": 4.6,
+		"category": "Armature"
+	},
+	{
+		"id": "14",
+		"imageUrl": "https://m.media-amazon.com/images/I/61KVbKSnozL.jpg",
+		"title": "Decorative Vases",
+		"price": 30,
+		"rating": 4.3,
+		"category": "Armature"
+	},
+	{
+		"id": "15",
+		"imageUrl": "https://media.overstockart.com/optimized/cache/data/user_uploads/FR-7870G20X24-1000x1000.png",
+		"title": "Elegant Picture Frames",
+		"price": 15,
+		"rating": 4.5,
+		"category": "Armature"
+	},
+	{
+		"id": "16",
+		"imageUrl": "https://kaptown.com/wp-content/uploads/2021/12/1-17.png",
+		"title": "Unique Wall Clock",
+		"price": 50,
+		"rating": 4.8,
+		"category": "Armature"
+	},
+	{
+		"id": "17",
+		"imageUrl": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1658157477-51Q9rubXeML._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*",
+		"title": "Cozy Throw Pillows",
+		"price": 20,
+		"rating": 4.6,
+		"category": "Armature"
+	},
+	{
+		"id": "18",
+		"imageUrl": "https://m.media-amazon.com/images/I/715i1Q38ltL.jpg",
+		"title": "Soft Decorative Blankets",
+		"price": 35,
+		"rating": 4.2,
+		"category": "Armature"
+	},
+	{
+		"id": "19",
+		"imageUrl": "https://www.rugtraders.co.uk/wp-content/uploads/2019/12/RT2.jpg",
+		"title": "Patterned Area Rugs",
+		"price": 70,
+		"rating": 4.9,
+		"category": "Armature"
+	},
+	{
+		"id": "20",
+		"imageUrl": "https://m.media-amazon.com/images/I/71IsnDE9lDL._UF1000,1000_QL80_.jpg",
+		"title": "Framed Wall Mirrors",
+		"price": 100,
+		"rating": 4.7,
+		"category": "Armature"
+	},
+	{
+		"id": "21",
+		"imageUrl": "https://www.atkinandthyme.co.uk/media/catalog/product/cache/ff4df62209228869e2d6e438912332e8/a/_/a_t_belmont_house-_110-of-210_---copy.jpg",
+		"title": "Marble Console Table",
+		"price": 280,
+		"rating": 4.6,
+		"category": "Tables"
+	},
+	{
+		"id": "22",
+		"imageUrl": "https://assets.wfcdn.com/im/74950062/compr-r85/2057/205748541/monterey-manufactured-wood-bedside-table.jpg",
+		"title": "Wooden Bedside Table",
+		"price": 120,
+		"rating": 4.5,
+		"category": "Tables"
+	},
+	{
+		"id": "23",
+		"imageUrl": "https://m.media-amazon.com/images/I/81NClvv56nL._AC_UF894,1000_QL80_.jpg",
+		"title": "Glass Coffee Table",
+		"price": 200,
+		"rating": 4.4,
+		"category": "Tables"
+	},
+	{
+		"id": "24",
+		"imageUrl": "https://m.media-amazon.com/images/I/71L++VYopSL.jpg",
+		"title": "Foldable Dining Table",
+		"price": 150,
+		"rating": 4.7,
+		"category": "Tables"
+	},
+	{
+		"id": "25",
+		"imageUrl": "https://images.antiquesatlas.com/dealer-stock-images/londonfine/Antique_Writing_Desk_Bureau_Ed_as272a2094z.jpg",
+		"title": "Antique Writing Desk",
+		"price": 180,
+		"rating": 4.3,
+		"category": "Tables"
+	},
+	{
+		"id": "26",
+		"imageUrl": "https://images.thdstatic.com/productImages/35ed88f5-1089-4953-9f84-112dd1d9ffe4/svn/outdoor-essentials-woodshop-projects-406722-64_600.jpg",
+		"title": "Outdoor Picnic Table",
+		"price": 220,
+		"rating": 4.8,
+		"category": "Tables"
+	},
+	{
+		"id": "27",
+		"imageUrl": "https://m.media-amazon.com/images/I/71RotgucTgL._AC_UF894,1000_QL80_.jpg",
+		"title": "Computer Workstation",
+		"price": 300,
+		"rating": 4.6,
+		"category": "Tables"
+	},
+	{
+		"id": "28",
+		"imageUrl": "https://rusticreddoor.com/cdn/shop/products/Avon-farmhouse-dining-table-chairs-bench_1200x.jpg?v=1676664380",
+		"title": "Rustic Dining Table",
+		"price": 350,
+		"rating": 4.5,
+		"category": "Tables"
+	},
+	{
+		"id": "29",
+		"imageUrl": "https://www.u-buy.com.ua/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFCUWNWUGRLK0wuX0FDX1NMMTUwMF8uanBn.jpg",
+		"title": "Adjustable Standing Desk",
+		"price": 400,
+		"rating": 4.9,
+		"category": "Tables"
+	},
+	{
+		"id": "30",
+		"imageUrl": "https://d3j8byfbtf6p6k.cloudfront.net/images/D/m3-93.jpg",
+		"title": "Contemporary End Table",
+		"price": 90,
+		"rating": 4.7,
+		"category": "Tables"
+	},
+	{
+		"id": "31",
+		"imageUrl": "https://m.media-amazon.com/images/I/61vHoXSA9NL._AC_SL1200_.jpg",
+		"title": "Ergonomic Office Chair",
+		"price": 180,
+		"rating": 4.8,
+		"category": "Chairs"
+	},
+	{
+		"id": "32",
+		"imageUrl": "https://www.thefurnituremarket.co.uk/media/catalog/product/cache/e4e84aa932b2529fd37e74b0f4a947c5/d/-/d-501-chatsworth-natural-fabric-armchair-1.jpg",
+		"title": "Upholstered Armchair",
+		"price": 250,
+		"rating": 4.7,
+		"category": "Chairs"
+	},
+	{
+		"id": "33",
+		"imageUrl": "https://i0.wp.com/cottonwoodandco.com/wp-content/uploads/2014/01/Cottonwood-and-Co-windsor-chairs-architectural-digest.png?fit=1146%2C1418&ssl=1",
+		"title": "Windsor Dining Chair",
+		"price": 120,
+		"rating": 4.6,
+		"category": "Chairs"
+	},
+	{
+		"id": "34",
+		"imageUrl": "https://m.media-amazon.com/images/I/81ow-hAGHhL.jpg",
+		"title": "Folding Beach Chair",
+		"price": 50,
+		"rating": 4.4,
+		"category": "Chairs"
+	},
+	{
+		"id": "35",
+		"imageUrl": "https://adobeinteriors.com/image/catalog/living-room/recliners/slayden-mocha-leather-recliner-2.jpg",
+		"title": "Leather Recliner",
+		"price": 320,
+		"rating": 4.9,
+		"category": "Chairs"
+	},
+	{
+		"id": "36",
+		"imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/west-elm-huron.jpg?q=h_900,w_1601,x_0,y_0",
+		"title": "Outdoor Patio Chair",
+		"price": 80,
+		"rating": 4.5,
+		"category": "Chairs"
+	},
+	{
+		"id": "37",
+		"imageUrl": "https://m.media-amazon.com/images/I/71tv6BFPguL._AC_UF894,1000_QL80_.jpg",
+		"title": "Modern Bar Stool",
+		"price": 100,
+		"rating": 4.3,
+		"category": "Chairs"
+	},
+	{
+		"id": "38",
+		"imageUrl": "https://m.media-amazon.com/images/I/81rQR4Ntg1L.jpg",
+		"title": "Plush Rocking Chair",
+		"price": 150,
+		"rating": 4.8,
+		"category": "Chairs"
+	},
+	{
+		"id": "39",
+		"imageUrl": "https://images-cdn.ubuy.co.in/6461b3c8b480e5767c1ecef6-huimo-accent-chair-set-of-2-arm-chair.jpg",
+		"title": "Accent Lounge Chair",
+		"price": 210,
+		"rating": 4.6,
+		"category": "Chairs"
+	},
+	{
+		"id": "40",
+		"imageUrl": "https://www.juliettesinteriors.co.uk/wp-content/uploads/2021/04/modern-bar-stool-1.jpg",
+		"title": "Modern Bar Stool",
+		"price": 230,
+		"rating": 4.3,
+		"category": "Chairs"
+	},
+	{
+		"id": "41",
+		"imageUrl": "https://images.woodenstreet.de/image/cache/data%2Fdining-chairs%2Fkelvin-arm-dining-chairs-mango-natural%2Fgrey-robins%2Fupdated%2F1-750x650.jpg",
+		"title": "Vintage Wooden Chair",
+		"price": 130,
+		"rating": 4.7,
+		"category": "Chairs"
+	},
+	{
+		"id": "42",
+		"imageUrl": "https://www.chairoffice.co.uk/media/17642/alto-mesh-chair-1.jpg?width=400",
+		"title": "Mesh Office Chair",
+		"price": 190,
+		"rating": 4.6,
+		"category": "Chairs"
+	},
+	{
+		"id": "43",
+		"imageUrl": "https://m.media-amazon.com/images/I/61259whhZKL.jpg",
+		"title": "Rattan Hanging Chair",
+		"price": 180,
+		"rating": 4.5,
+		"category": "Chairs"
+	},
+	{
+		"id": "44",
+		"imageUrl": "https://housetie.com/cdn/shop/products/EEI-2796-BEI_5.jpg?v=1571609933",
+		"title": "Elegant Dining Armchair",
+		"price": 160,
+		"rating": 4.4,
+		"category": "Chairs"
+	},
+	{
+		"id": "45",
+		"imageUrl": "https://www.gadgetreview.com/wp-content/uploads/Swivel-Gaming-Chair-Review.jpg",
+		"title": "Swivel Gaming Chair",
+		"price": 220,
+		"rating": 4.8,
+		"category": "Chairs"
+	},
+	{
+		"id": "46",
+		"imageUrl": "https://m.media-amazon.com/images/I/81c6mlvYIDL.jpg",
+		"title": "L-Shaped Sectional Sofa",
+		"price": 1200,
+		"rating": 4.9,
+		"category": "Sofas"
+	},
+	{
+		"id": "47",
+		"imageUrl": "https://m.media-amazon.com/images/I/913J3KQHGBL.jpg",
+		"title": "Convertible Sleeper Sofa",
+		"price": 800,
+		"rating": 4.7,
+		"category": "Sofas"
+	},
+	{
+		"id": "48",
+		"imageUrl": "https://www.roseandgrey.co.uk/media/catalog/product/a/l/albert_sofa_2_4.jpg?width=600&height=780&store=default&image-type=image",
+		"title": "Velvet Chesterfield Sofa",
+		"price": 1000,
+		"rating": 4.8,
+		"category": "Sofas"
+	},
+	{
+		"id": "49",
+		"imageUrl": "https://images.sofology.co.uk/c_scale,w_460,q_70,dpr_3,fl_lossy,f_auto/productmedia/lifestyle/sku000635669.jpg",
+		"title": "Leather Reclining Sofa",
+		"price": 1300,
+		"rating": 4.6,
+		"category": "Sofas"
+	},
+	{
+		"id": "50",
+		"imageUrl": "https://assets.wfcdn.com/im/75900384/compr-r85/6511/65116261/caggiano-7625-metal-outdoor-patio-sofa.jpg",
+		"title": "Outdoor Patio Sofa",
+		"price": 700,
+		"rating": 4.5,
+		"category": "Sofas"
+	},
+	{
+		"id": "51",
+		"imageUrl": "https://m.media-amazon.com/images/I/810dX51hSuL.jpg",
+		"title": "Chaise Lounge Sofa",
+		"price": 900,
+		"rating": 4.7,
+		"category": "Sofas"
+	},
+	{
+		"id": "52",
+		"imageUrl": "https://m.media-amazon.com/images/I/81906MVkmEL._AC_UF894,1000_QL80_.jpg",
+		"title": "Mid-Century Modern Sofa",
+		"price": 1100,
+		"rating": 4.9,
+		"category": "Sofas"
+	},
+	{
+		"id": "53",
+		"imageUrl": "https://www.home-designing.com/wp-content/uploads/2019/09/velvet-tufted-sofa-dark-grey-upholstery-for-classic-interiors.jpg",
+		"title": "Tufted Fabric Sofa",
+		"price": 950,
+		"rating": 4.6,
+		"category": "Sofas"
+	},
+	{
+		"id": "54",
+		"imageUrl": "https://ak1.ostkcdn.com/images/products/15859165/LYKE-Home-Extra-Plush-Micro-Loveseat-209a081c-1eaa-4290-8192-7c34c57d93dc_600.jpg?impolicy=medium",
+		"title": "Plush Loveseat",
+		"price": 800,
+		"rating": 4.8,
+		"category": "Sofas"
+	},
+	{
+		"id": "55",
+		"imageUrl": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2014/12/11/382241/90392/single_person_classic_leather_sofa_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1088864_o.jpg",
+		"title": "Classic Leather Sofa",
+		"price": 1200,
+		"rating": 4.7,
+		"category": "Sofas"
+	},
+	{
+		"id": "56",
+		"imageUrl": "https://m.media-amazon.com/images/I/711H6WeQ2PL.jpg",
+		"title": "Round Wall Mirror",
+		"price": 90,
+		"rating": 4.5,
+		"category": "Mirrors"
+	},
+	{
+		"id": "57",
+		"imageUrl": "https://i5.walmartimages.com/seo/NeuType-65-x22-Rectangular-Full-Length-Floor-Mirror-with-Stand-Black_ab18bd21-a5ba-451f-b625-ef68e186dfbd.710a74505b64d60c8d263c0b696461d8.jpeg",
+		"title": "Full-Length Standing Mirror",
+		"price": 180,
+		"rating": 4.7,
+		"category": "Mirrors"
+	},
+	{
+		"id": "58",
+		"imageUrl": "https://m.media-amazon.com/images/I/61uyiEaq5rL._AC_UF894,1000_QL80_.jpg",
+		"title": "Oval Bathroom Mirror",
+		"price": 70,
+		"rating": 4.4,
+		"category": "Mirrors"
+	},
+	{
+		"id": "59",
+		"imageUrl": "https://m.media-amazon.com/images/I/71OX-hSYjCL._AC_UF894,1000_QL80_.jpg",
+		"title": "Antique Wall Mirror",
+		"price": 150,
+		"rating": 4.8,
+		"category": "Mirrors"
+	},
+	{
+		"id": "60",
+		"imageUrl": "https://ak1.ostkcdn.com/images/products/is/images/direct/346baebdcd2b783dbc82a30202d54a3cc0400c6c/Black-Simple-Fashion-Rectangle-Bathroom-Wall-Mounted-Vanity-Mirror.jpg?impolicy=medium",
+		"title": "Modern Vanity Mirror",
+		"price": 100,
+		"rating": 4.6,
+		"category": "Mirrors"
+	},
+	{
+		"id": "61",
+		"imageUrl": "https://i.etsystatic.com/13901991/r/il/777b37/1916255504/il_fullxfull.1916255504_9o57.jpg",
+		"title": "Decorative Sunburst Mirror",
+		"price": 120,
+		"rating": 4.5,
+		"category": "Mirrors"
+	},
+	{
+		"id": "62",
+		"imageUrl": "https://m.media-amazon.com/images/I/81Rpj1vnSKL.jpg",
+		"title": "Gold-Frame Accent Mirror",
+		"price": 80,
+		"rating": 4.9,
+		"category": "Mirrors"
+	},
+	{
+		"id": "63",
+		"imageUrl": "https://m.media-amazon.com/images/I/71ClSETrc+L.jpg",
+		"title": "Framed Hallway Mirror",
+		"price": 110,
+		"rating": 4.7,
+		"category": "Mirrors"
+	},
+	{
+		"id": "64",
+		"imageUrl": "https://s3.amazonaws.com/media.woodsmithplans.com/images/WS25830_craftsman-dresser-mirror/photo-large-hd.jpg",
+		"title": "Wooden Dresser Mirror",
+		"price": 95,
+		"rating": 4.3,
+		"category": "Mirrors"
+	},
+	{
+		"id": "65",
+		"imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod12620054_E49910196_F?$PD$&illum=0",
+		"title": "Silver-Gilt Mirror",
+		"price": 130,
+		"rating": 4.8,
+		"category": "Mirrors"
+	},
+	{
+		"id": "66",
+		"imageUrl": "https://nathanjames.com/cdn/shop/files/21604-Hero-_1.jpg?v=1684419762&width=2048",
+		"title": "Counter Height Bar Stool",
+		"price": 80,
+		"rating": 4.6,
+		"category": "Stools"
+	},
+	{
+		"id": "67",
+		"imageUrl": "https://target.scene7.com/is/image/Target/GUEST_e8c80e44-b156-4dab-97d8-73bd44ac4a60?wid=488&hei=488&fmt=pjpeg",
+		"title": "Adjustable Swivel Stool",
+		"price": 60,
+		"rating": 4.5,
+		"category": "Stools"
+	},
+	{
+		"id": "68",
+		"imageUrl": "https://m.media-amazon.com/images/I/61npOJGT5oL.jpg",
+		"title": "Wooden Step Stool",
+		"price": 40,
+		"rating": 4.7,
+		"category": "Stools"
+	},
+	{
+		"id": "69",
+		"imageUrl": "https://a.1stdibscdn.com/archivesE/upload/1121189/f_57053931476525794926/5705393_master.jpg",
+		"title": "Metal Industrial Stool",
+		"price": 70,
+		"rating": 4.3,
+		"category": "Stools"
+	},
+	{
+		"id": "70",
+		"imageUrl": "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202325/0143/maison-upholstered-bar-counter-stools-l.jpg",
+		"title": "Upholstered Kitchen Stool",
+		"price": 100,
+		"rating": 4.8,
+		"category": "Stools"
+	},
+	{
+		"id": "71",
+		"imageUrl": "https://www.roseandgrey.co.uk/media/catalog/product/r/a/rattan_counter_stool_1.jpg?width=600&height=780&store=default&image-type=image",
+		"title": "Rattan Bar Stool",
+		"price": 85,
+		"rating": 4.6,
+		"category": "Stools"
+	},
+	{
+		"id": "72",
+		"imageUrl": "https://m.media-amazon.com/images/I/71HWavpueYL.jpg",
+		"title": "Padded Vanity Stool",
+		"price": 50,
+		"rating": 4.9,
+		"category": "Stools"
+	},
+	{
+		"id": "73",
+		"imageUrl": "https://m.media-amazon.com/images/I/81KhlslU5kL._AC_UF894,1000_QL80_.jpg",
+		"title": "Backless Counter Stool",
+		"price": 55,
+		"rating": 4.4,
+		"category": "Stools"
+	},
+	{
+		"id": "74",
+		"imageUrl": "https://m.media-amazon.com/images/I/91pl5kCB91L._AC_UF894,1000_QL80_.jpg",
+		"title": "Outdoor Garden Stool",
+		"price": 65,
+		"rating": 4.7,
+		"category": "Stools"
+	},
+	{
+		"id": "75",
+		"imageUrl": "https://m.media-amazon.com/images/I/71HqFy0wQ7L.jpg",
+		"title": "Leather Bar Stool",
+		"price": 90,
+		"rating": 4.5,
+		"category": "Stools"
+	},
+	{
+		"id": "76",
+		"imageUrl": "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202307/0475/aubrey-entryway-storage-bench-1-l.jpg",
+		"title": "Entryway Storage Bench",
+		"price": 150,
+		"rating": 4.8,
+		"category": "Benches"
+	},
+	{
+		"id": "77",
+		"imageUrl": "https://www.azumaoutdoor.co.uk/cdn/shop/products/azumaoutdoor-garden-bench-azuma-3-seat-wooden-bench-garden-hardwood-furniture-28373091647585.jpg?v=1676403512",
+		"title": "Wooden Garden Bench",
+		"price": 120,
+		"rating": 4.6,
+		"category": "Benches"
+	},
+	{
+		"id": "78",
+		"imageUrl": "https://m.media-amazon.com/images/I/81jlEajIYZL.jpg",
+		"title": "Upholstered Bedroom Bench",
+		"price": 100,
+		"rating": 4.5,
+		"category": "Benches"
+	},
+	{
+		"id": "79",
+		"imageUrl": "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0131/rustic-reclaimed-wood-bench-c.jpg",
+		"title": "Rustic Wooden Bench",
+		"price": 180,
+		"rating": 4.3,
+		"category": "Benches"
+	},
+	{
+		"id": "80",
+		"imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod3060177_E34925451_Top?$l-pd1$&wid=650",
+		"title": "Leather Tufted Bench",
+		"price": 220,
+		"rating": 4.7,
+		"category": "Benches"
+	},
+	{
+		"id": "81",
+		"imageUrl": "https://assets.wfcdn.com/im/76117683/compr-r85/1435/143541384/medellin-acacia-outdoor-bench.jpg",
+		"title": "Outdoor Patio Bench",
+		"price": 90,
+		"rating": 4.4,
+		"category": "Benches"
+	},
+	{
+		"id": "82",
+		"imageUrl": "https://images.thdstatic.com/productImages/5fa13327-384b-4b49-becb-874f0d0d8670/svn/gray-walker-edison-furniture-company-dining-benches-hd58alpgy-64_1000.jpg",
+		"title": "Modern Entryway Bench",
+		"price": 160,
+		"rating": 4.8,
+		"category": "Benches"
+	},
+	{
+		"id": "83",
+		"imageUrl": "https://cdn.shopify.com/s/files/1/0438/1069/products/Penida_Wicker_Bench_1.jpg?v=1656094788",
+		"title": "Woven Rattan Bench",
+		"price": 130,
+		"rating": 4.6,
+		"category": "Benches"
+	},
+	{
+		"id": "84",
+		"imageUrl": "https://m.media-amazon.com/images/I/81nWzHTP4WL._AC_UF894,1000_QL80_.jpg",
+		"title": "Faux Fur Vanity Bench",
+		"price": 80,
+		"rating": 4.5,
+		"category": "Benches"
+	},
+	{
+		"id": "85",
+		"imageUrl": "https://estorisexlusivelive.blob.core.windows.net/thumbs/0025394_emily-backless-dining-bench-em500_800.jpeg",
+		"title": "Backless Dining Bench",
+		"price": 100,
+		"rating": 4.9,
+		"category": "Benches"
+	},
+	{
+		"id": "86",
+		"imageUrl": "https://www.vivaterra.com/medias/?context=bWFzdGVyfGltYWdlc3w5NzE2NnxpbWFnZS9qcGVnfGg0ZC9oYWIvMTM4MzQ5MTI5ODkyMTR8ZmQ1MmI2NDNjNzA2ZjAxNDhhMzY3NGRkZTU0ZGJkYTUxODM4OTJjM2EwZjI0ODU4MTc3MGU2MzNjZjg0ODE0NA",
+		"title": "Indoor/Outdoor Bench",
+		"price": 110,
+		"rating": 4.7,
+		"category": "Benches"
+	},
+	{
+		"id": "87",
+		"imageUrl": "https://thealleyex.com/cdn/shop/products/gsdfgs_09f301cd-12af-4741-b8a5-c52841668ecb_1009x.png?v=1630516049",
+		"title": "Vintage Wooden Bench",
+		"price": 150,
+		"rating": 4.3,
+		"category": "Benches"
+	},
+	{
+		"id": "88",
+		"imageUrl": "https://m.media-amazon.com/images/I/71dUDboKC6L.jpg",
+		"title": "Upholstered Bench Seat",
+		"price": 180,
+		"rating": 4.8,
+		"category": "Benches"
+	},
+	{
+		"id": "89",
+		"imageUrl": "https://m.media-amazon.com/images/I/812MHgeUcYL._AC_UF894,1000_QL80_.jpg",
+		"title": "Metal Garden Bench",
+		"price": 120,
+		"rating": 4.6,
+		"category": "Benches"
+	}
+]

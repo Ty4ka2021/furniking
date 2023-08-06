@@ -1,0 +1,19 @@
+.Categories {}
+
+.wrapper {
+	display: flex;
+}
+
+.list {
+	background-color: #b4adad;
+	width: 260px;
+}
+
+.item {
+	padding: 10px 0 10px 30px;
+}
+
+.slider {
+	width: 100%;
+	background-color: #c40d0d;
+}
