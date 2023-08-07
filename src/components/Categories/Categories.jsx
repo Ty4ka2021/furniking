@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 import s from "./Categories.module.css"
+import { useSelector } from 'react-redux'
 
-const Categories = ({ categories, categoryId, setCategoryId }) => {
+const Categories = ({ categoryId, setCategoryId }) => {
+
+	const categories = useSelector(state => state.filter.categories)
 
 	return (
 		<div className={s.Categories}>

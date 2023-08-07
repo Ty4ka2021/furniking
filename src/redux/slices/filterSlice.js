@@ -2,7 +2,8 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
 	searchValue: '',
-	categoryId: 0
+	categoryId: 0,
+	categories: ['All', 'Furniture', 'Armature', 'Tables', 'Chairs', 'Sofas', 'Mirrors', 'Stools', 'Benches']
 }
 
 const filterSlice = createSlice({

@@ -3,10 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import Categories from '../../components/Categories/Categories'
 import Header from '../../components/Header/Header'
 import { setCategoryId } from '../../redux/slices/filterSlice'
-import { fetchProducts, setStatus } from '../../redux/slices/productsSlice'
+import { setStatus } from '../../redux/slices/productsSlice'
 import s from "./Home.module.css"
-
-const categories = ['All', 'Furniture', 'Armature', 'Tables', 'Chairs', 'Sofas', 'Mirrors', 'Stools', 'Benches']
 
 const Home = () => {
 	const dispatch = useDispatch()
@@ -15,7 +13,6 @@ const Home = () => {
 	const setCategoryIdClick = (id) => {
 		dispatch(setStatus('Loading'))
 		dispatch(setCategoryId(id))
-		dispatch(fetchProducts(categories[categoryId]))
 	}
 
 	// useEffect(() => {
@@ -26,12 +23,11 @@ const Home = () => {
 
 
 
-
 	return (
 		<div className={s.Home}>
 			<Header />
 
-			<Categories categories={categories} categoryId={categoryId} setCategoryId={setCategoryIdClick} />
+			<Categories categoryId={categoryId} setCategoryId={setCategoryIdClick} />
 
 		</div>
 	)
