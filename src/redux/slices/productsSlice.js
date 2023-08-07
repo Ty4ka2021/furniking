@@ -3,7 +3,6 @@ import axios from 'axios'
 
 export const fetchProducts = createAsyncThunk(
 	'products/fetchStatus', async (category) => {
-		console.log(category)
 		const { data } = await axios.get(`https://64cf7379ffcda80aff51dd7e.mockapi.io/products?
 		${category === 'All' ? '' : `category=${category}`}`)
 		return data

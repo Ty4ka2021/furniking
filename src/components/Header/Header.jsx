@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { setSearchValue } from '../../redux/slices/filterSlice'
 import s from "./Header.module.css"
 import TopBar from './TopBar/TopBar'
+import Categories from '../Categories/Categories'
+import Navigation from './Navigation/Navigation'
 
 const Header = () => {
 	const [count, setCount] = useState(0)
@@ -37,6 +39,8 @@ const Header = () => {
 						</span>
 					</Link>
 				</div>
+
+				<Navigation />
 			</div>
 		</div>
 	)

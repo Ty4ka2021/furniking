@@ -1,16 +1,42 @@
-.Categories {}
+.Categories:hover .list {
+	display: block;
+}
 
-.wrapper {
-	display: flex;
+.btn {
+	font-size: 20px;
+	color: var(--color-white);
+	width: 260px;
+	height: 50px;
+	background-color: var(--color-green);
+	border: transparent;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--color-green-light);
 }
 
 .list {
-	background-color: #b4adad;
+	background-color: var(--color-gray-light);
 	width: 260px;
+	position: absolute;
+	z-index: 2;
+	display: none;
 }
 
 .item {
+	border-top: 1px solid var(--color-green);
+}
+
+.item:hover {
+	background-color: var(--color-green-light);
+}
+
+.item a {
 	padding: 10px 0 10px 30px;
+	display: block;
+	color: var(--color-gray);
+	text-decoration: none;
 }
 
 .slider {

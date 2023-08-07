@@ -1,3 +1,7 @@
+.Header {
+	margin-bottom: 50px;
+}
+
 .wrapper {
 	display: flex;
 	align-items: center;
@@ -24,7 +28,7 @@
 
 .search input::placeholder {
 	font-size: 18px;
-	color: var(--color-grey);
+	color: var(--color-gray);
 }
 
 .search input:focus {
@@ -32,7 +36,7 @@
 }
 
 .search svg {
-	fill: var(--color-grey);
+	fill: var(--color-gray);
 	width: 30px;
 	height: 30px;
 	position: absolute;

@@ -1,33 +1,43 @@
-import React from "react"
+import React, { useState } from "react"
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { setCategoryId } from '../../redux/slices/filterSlice'
+import { setStatus } from '../../redux/slices/productsSlice'
 import s from "./Categories.module.css"
-import { useSelector } from 'react-redux'
 
-const Categories = ({ categoryId, setCategoryId }) => {
+const Categories = () => {
+
+	const dispatch = useDispatch()
+	// const categoryId = useSelector(state => state.filter.categoryId)
+
+	const setCategoryIdClick = (id) => {
+		dispatch(setStatus('Loading'))
+		dispatch(setCategoryId(id))
+	}
+
 
 	const categories = useSelector(state => state.filter.categories)
 
+	const [show, setShow] = useState(false)
+
+
 	return (
 		<div className={s.Categories}>
-			<div className="container">
-				<div className={s.wrapper}>
-					<ul className={s.list}>
-						{categories.map((value, i) => (
 
-							<li key={i} onClick={() => setCategoryId(i)} className={s.item}>
-								<Link to='/shop'>
-									{value}
-								</Link>
-							</li>
-						))}
-					</ul>
+			<button className={s.btn} >Category</button>
 
-					<div className={s.slider}>
-						s
-					</div>
-				</div>
+			<ul className={s.list}>
+				{categories.map((value, i) => (
 
-			</div>
+					<li key={i} onClick={() => setCategoryIdClick(i)} className={s.item}>
+						<Link to='/shop'>
+							{value}
+						</Link>
+					</li>
+				))}
+			</ul>
+
+
 
 		</div>
 	)

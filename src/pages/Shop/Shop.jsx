@@ -19,7 +19,9 @@ const Shop = () => {
 
 	useEffect(() => {
 		dispatch(fetchProducts(categories[categoryId]))
-	}, [])
+	}, [categoryId])
+
+
 
 	return (
 		<div className={s.Shop}>
@@ -27,8 +29,8 @@ const Shop = () => {
 
 			{status === 'Error'
 				? <div>Error</div>
-				: <div>
-					<ul>
+				: <div className='container'>
+					<ul className={s.list}>
 						{status === 'Loading'
 							? <div>Loading...</div>
 							: items
