@@ -1,0 +1,12 @@
+.HeroBlock {
+	margin-bottom: 65px;
+}
+
+.block {
+	padding: 200px;
+	font-size: 100px;
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background-color: #a79d9d;
+}

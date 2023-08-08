@@ -11,14 +11,18 @@ const Navigation = () => {
 
 	return (
 		<div className={s.navigation}>
-			<Categories />
-			<nav className={s.nav}>
-				<Link className={location.pathname === '/' ? s.active : ''} to='/'>Home</Link>
-				<Link onClick={() => dispatch(setCategoryId(0))} className={location.pathname === '/shop' ? s.active : ''} to='/shop'>Shop</Link>
-				<Link className={location.pathname === '/blog' ? s.active : ''} to='/blog'>Blog</Link>
-				<Link className={location.pathname === '/about' ? s.active : ''} to='/about'>About</Link>
-				<Link className={location.pathname === '/contact' ? s.active : ''} to='/contact'>Contact us</Link>
-			</nav>
+			<div className="container">
+				<div className={s.wrapper}>
+					<Categories />
+					<nav className={s.nav}>
+						<Link className={location.pathname === '/' ? s.active : ''} to='/'>Home</Link>
+						<Link onClick={() => dispatch(setCategoryId(0))} className={location.pathname === '/shop' ? s.active : ''} to='/shop'>Shop</Link>
+						<Link className={location.pathname === '/blog' ? s.active : ''} to='/blog'>Blog</Link>
+						<Link className={location.pathname === '/about' ? s.active : ''} to='/about'>About</Link>
+						<Link className={location.pathname === '/contact' ? s.active : ''} to='/contact'>Contact us</Link>
+					</nav>
+				</div>
+			</div>
 		</div>
 	)
 }

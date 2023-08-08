@@ -1,7 +1,10 @@
 .navigation {
-	display: flex;
-	height: 50px;
 	background-color: var(--color-gray-light);
+}
+
+.wrapper {
+	display: flex;
+
 }
 
 .nav {
