@@ -1,0 +1,23 @@
+.category {
+	display: flex;
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto 30px;
+	justify-content: space-around;
+}
+
+.item {
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.active {
+	color: var(--color-green);
+}
+
+.list {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+}
