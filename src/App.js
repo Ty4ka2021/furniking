@@ -7,6 +7,7 @@ import Contact from './pages/Contact/Contact'
 import Home from './pages/Home/Home'
 import NotFound from './pages/NotFound/NotFound'
 import Shop from './pages/Shop/Shop'
+import Product from './components/Product/Product'
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/blog' element={<Blog />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/product/:id' element={<Product />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
 

@@ -1,35 +1,22 @@
 import classNames from 'classnames'
-import React, { useState } from "react"
-import { useSelector } from 'react-redux'
+import React, { useEffect, useState } from "react"
+import { useDispatch, useSelector } from 'react-redux'
+import { fetchTopProducts } from '../../../../redux/slices/topProductsSlice'
 import ProductBlock from '../../../ProductBlock/ProductBlock'
 import s from "./Trending.module.css"
 
-const Trending = ({ data }) => {
+const Trending = () => {
+	const dispatch = useDispatch()
 
 	const category = ['Top Products', 'New Arrivals', 'Best Sellers']
 	const [activeId, setActiveId] = useState(0)
-	const status = useSelector(state => state.products.status)
+	const status = useSelector(state => state.topProducts.status)
 
-	const topProductsId = new Array
-	const newArrivalsId = new Array
-	const bestSellersId = new Array
+	useEffect(() => {
+		dispatch(fetchTopProducts())
+	}, [])
 
-	const generateRandomId = (myArr) => {
-		const randomNum = Math.floor(Math.random() * 20 + 10)
-		for (let i = 0; i < randomNum; i++) {
-			const randomNumber = Math.floor(Math.random() * data.length + 1)
-			myArr.push(randomNumber)
-		}
-	}
-
-	generateRandomId(topProductsId)
-	generateRandomId(newArrivalsId)
-	generateRandomId(bestSellersId)
-
-	const topProducts = data.filter(item => topProductsId.includes(Number(item.id)))
-	const newArrivals = data.filter(item => topProductsId.includes(Number(item.id)))
-	const bestSellers = data.filter(item => topProductsId.includes(Number(item.id)))
-
+	const topProducts = useSelector(state => state.topProducts.topProducts)
 
 	return (
 		<div className={s.Trending}>
@@ -58,12 +45,12 @@ const Trending = ({ data }) => {
 									))
 								)}
 								{activeId === 1 && (
-									newArrivals.map((obj) => (
+									topProducts.map((obj) => (
 										<ProductBlock {...obj} />
 									))
 								)}
 								{activeId === 2 && (
-									bestSellers.map((obj) => (
+									topProducts.map((obj) => (
 										<ProductBlock {...obj} />
 									))
 								)}

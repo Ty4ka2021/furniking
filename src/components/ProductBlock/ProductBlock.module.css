@@ -31,7 +31,6 @@
 .box {
 	margin-top: auto;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 10px;
 	width: 100%;
@@ -41,9 +40,17 @@
 	color: var(--color-green);
 	font-size: 18px;
 	font-weight: bold;
+	margin-right: 20px;
 }
 
-.rating {}
+.oldPrice {
+	font-size: 18px;
+	text-decoration: line-through;
+}
+
+.rating {
+	margin-left: auto;
+}
 
 .btn {
 	display: flex;

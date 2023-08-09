@@ -1,9 +1,10 @@
 import React from "react"
 import s from "./ProductBlock.module.css"
+import { Link } from 'react-router-dom'
 
-const ProductBlock = ({ id, title, category, rating, price, imageUrl }) => {
+const ProductBlock = ({ id, title, category, rating, price, oldPrice, imageUrl }) => {
 	return (
-		<div className={s.ProductBlock}>
+		<Link to={`/product/${id}`} className={s.ProductBlock}>
 			<div className={s.imgBox}>
 				<img className={s.img} src={imageUrl} alt="" />
 			</div>
@@ -11,11 +12,12 @@ const ProductBlock = ({ id, title, category, rating, price, imageUrl }) => {
 			<h4 className={s.title}>{title}</h4>
 			<div className={s.box}>
 				<span className={s.price}>${price}</span>
+				<span className={s.oldPrice}>${oldPrice}</span>
 				<span className={s.rating}>{rating}</span>
 			</div>
 
 			<button onClick={() => console.log(id)} className={s.btn}>Add to cart</button>
-		</div>
+		</Link>
 	)
 }
 
