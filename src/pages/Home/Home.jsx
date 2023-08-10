@@ -5,6 +5,7 @@ import HeroBlock from '../../components/Pages/HomePage/HeroBlock/HeroBlock'
 import Offer from '../../components/Pages/HomePage/Offer/Offer'
 import Trending from '../../components/Pages/HomePage/Trending/Trending'
 import s from "./Home.module.css"
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
 
@@ -20,7 +21,11 @@ const Home = () => {
 
 				<Trending />
 
+
+
+
 			</div>
+			<Footer />
 		</div>
 	)
 }

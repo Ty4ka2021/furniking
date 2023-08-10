@@ -145,6 +145,7 @@ table {
 	--color-dark: #2F2F2F;
 	--color-white: #ffffff;
 	--color-gray: #555555;
+	--color-gray-100: #969696;
 	--color-gray-light: #f1f1f1;
 	--color-green: #7AC751;
 	--color-green-light: #ade48f;
@@ -171,4 +172,13 @@ body {
 	text-transform: uppercase;
 	margin-bottom: 45px;
 	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-gray);
+}
+
+a:hover {
+	color: var(--color-green);
 }

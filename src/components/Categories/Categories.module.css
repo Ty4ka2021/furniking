@@ -35,8 +35,10 @@
 .item a {
 	padding: 10px 0 10px 30px;
 	display: block;
+}
+
+.item a:hover {
 	color: var(--color-gray);
-	text-decoration: none;
 }
 
 .slider {
