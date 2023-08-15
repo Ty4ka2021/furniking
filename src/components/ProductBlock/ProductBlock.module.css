@@ -1,8 +1,4 @@
-.ProductBlock {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-}
+.ProductBlock {}
 
 .imgBox {
 	height: 240px;
@@ -19,7 +15,7 @@
 
 .category {
 	font-size: 14px;
-	color: var(--color-gray-light);
+	color: var(--color-gray);
 	margin-bottom: 10px;
 }
 

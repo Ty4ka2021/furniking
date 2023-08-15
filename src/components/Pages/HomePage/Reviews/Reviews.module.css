@@ -1,0 +1,48 @@
+.Reviews {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto 120px;
+	position: relative;
+}
+
+.Reviews h2 {
+	margin-bottom: 100px;
+}
+
+.slider {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.avatar {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+	display: block;
+}
+
+.content {
+	max-width: 800px;
+	width: 100%;
+	background-color: var(--color-gray-light);
+	border-radius: 10px;
+	padding: 80px 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.text {
+	margin-bottom: 30px;
+}
+
+.name {
+	font-size: 24px;
+	font-weight: bold;
+}
