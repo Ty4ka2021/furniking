@@ -1,5 +1,5 @@
 import React from "react"
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { addToCart } from '../../redux/slices/cartSlice'
 import s from "./ProductBlock.module.css"
@@ -10,6 +10,10 @@ const ProductBlock = (obj) => {
 	const addToCartClick = (obj) => {
 		dispatch(addToCart(obj))
 	}
+
+	const cartId = useSelector(state => state.cart.cartId)
+
+
 	return (
 		<div className={s.ProductBlock}>
 			<Link to={`/product/${obj.id}`} >
@@ -25,7 +29,8 @@ const ProductBlock = (obj) => {
 				</div>
 
 			</Link>
-			<button onClick={() => addToCartClick(obj)} className={s.btn}>Add to cart</button>
+			<button disabled={cartId.includes(obj.id)} onClick={() => addToCartClick(obj)}
+				className={s.btn}>{cartId.includes(obj.id) ? 'In cart ' : 'Add to cart'} </button>
 		</div>
 	)
 }

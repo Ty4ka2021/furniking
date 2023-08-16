@@ -1,6 +1,7 @@
 .CartItem {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 	width: 100%;
 	margin-bottom: 30px;
 }
@@ -9,4 +10,77 @@
 	width: 200px;
 	height: 200px;
 	object-fit: cover;
+}
+
+.text {
+	max-width: 400px;
+	width: 100%;
+	font-size: 24px;
+}
+
+.countBox {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.btnCount {
+	font-size: 30px;
+	color: var(--color-white);
+	width: 40px;
+	height: 40px;
+	border: transparent;
+	background-color: var(--color-green);
+	cursor: pointer;
+}
+
+.btnCount:hover {
+	background-color: var(--color-green-200);
+}
+
+.btnDisabled {
+	background-color: var(--color-green-light);
+	cursor: default;
+}
+
+.btnDisabled:hover {
+	background-color: var(--color-green-light);
+}
+
+.count {
+	font-size: 24px;
+	margin: 0 20px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+}
+
+.btn {
+	color: var(--color-white);
+	border: transparent;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: var(--color-green);
+	margin-bottom: auto;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--color-green-200);
+}
+
+.oldPrice {
+	text-align: right;
+	text-decoration: line-through;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.price {
+	font-size: 30px;
+	font-weight: bold;
+	color: var(--color-green);
 }

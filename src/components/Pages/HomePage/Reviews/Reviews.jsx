@@ -52,8 +52,6 @@ const Reviews = () => {
 			setCurrentSlide(currentSlide + 1)
 		}
 	}
-	console.log(reviews.length, 'length')
-	console.log(currentSlide, 'currentSlide')
 
 	return (
 		<div className={s.Reviews}>

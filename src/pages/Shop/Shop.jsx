@@ -23,6 +23,7 @@ const Shop = () => {
 
 
 
+
 	return (
 		<div className={s.Shop}>
 			<Header />
