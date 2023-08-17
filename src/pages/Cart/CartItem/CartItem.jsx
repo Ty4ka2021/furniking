@@ -18,7 +18,7 @@ const CartItem = ({ id, title, price, oldPrice, imageUrl, count }) => {
 			</p>
 
 			<div className={s.countBox}>
-				<button className={count === 1 ? classNames(s.btnCount, s.btnDisabled) : s.btnCount} disabled={count === 1} onClick={() => dispatch(minusItem(id))}>-</button>
+				<button className={count === 1 ? classNames(s.btnCount, s.btnDisabled) : s.btnCount} disabled={count === 1} onClick={() => dispatch(minusItem({ id, price }))}>-</button>
 
 				<span className={s.count}>
 					{count}
@@ -30,10 +30,10 @@ const CartItem = ({ id, title, price, oldPrice, imageUrl, count }) => {
 			<div className={s.box}>
 				<button className={s.btn} onClick={() => removeFromCartClick(id)}>Delate</button>
 				<span className={s.oldPrice}>
-					{oldPrice}$
+					{oldPrice * count}$
 				</span>
 				<span className={s.price}>
-					{price}$
+					{price * count}$
 				</span>
 			</div>
 		</div>

@@ -1,0 +1,31 @@
+.wrapper {
+	margin-bottom: 40px;
+}
+
+.bottom {
+	background-color: var(--color-gray-light);
+	padding: 50px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.total {
+	font-size: 40px;
+	color: var(--color-green);
+}
+
+.total span {
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.order {
+	border: transparent;
+	font-size: 20px;
+	background-color: var(--color-green);
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+}
