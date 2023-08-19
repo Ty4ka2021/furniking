@@ -1,8 +1,8 @@
+import classNames from 'classnames'
 import React from "react"
-import s from "./CartItem.module.css"
 import { useDispatch } from 'react-redux'
 import { addToCart, minusItem, removeFromCart } from '../../../redux/slices/cartSlice'
-import classNames from 'classnames'
+import s from "./CartItem.module.css"
 
 const CartItem = ({ id, title, price, oldPrice, imageUrl, count }) => {
 	const dispatch = useDispatch()
@@ -18,17 +18,17 @@ const CartItem = ({ id, title, price, oldPrice, imageUrl, count }) => {
 			</p>
 
 			<div className={s.countBox}>
-				<button className={count === 1 ? classNames(s.btnCount, s.btnDisabled) : s.btnCount} disabled={count === 1} onClick={() => dispatch(minusItem({ id, price }))}>-</button>
+				<button className={count === 1 ? classNames('btn', s.btnDisabled) : 'btn'} disabled={count === 1} onClick={() => dispatch(minusItem({ id, price }))}>-</button>
 
 				<span className={s.count}>
 					{count}
 				</span>
 
-				<button className={s.btnCount} onClick={() => dispatch(addToCart({ id, title, price, oldPrice, imageUrl, count }))}>+</button>
+				<button className='btn' onClick={() => dispatch(addToCart({ id, title, price, oldPrice, imageUrl, count }))}>+</button>
 			</div>
 
 			<div className={s.box}>
-				<button className={s.btn} onClick={() => removeFromCartClick(id)}>Delate</button>
+				<button className={classNames('btn', s.btnDelate)} onClick={() => removeFromCartClick(id)}>Delate</button>
 				<span className={s.oldPrice}>
 					{oldPrice * count}$
 				</span>

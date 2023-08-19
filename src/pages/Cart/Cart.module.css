@@ -20,12 +20,16 @@
 	font-weight: bold;
 }
 
-.order {
-	border: transparent;
-	font-size: 20px;
-	background-color: var(--color-green);
-	width: 150px;
-	height: 50px;
-	border-radius: 10px;
-	cursor: pointer;
+.box {
+	text-align: center;
+}
+
+.img {
+	width: 400px;
+	margin-bottom: 40px;
+}
+
+.text {
+	font-size: 40px;
+	margin-bottom: 40px;
 }

@@ -1,6 +1,7 @@
 import classNames from 'classnames'
 import React, { useEffect, useState } from "react"
 import { useDispatch, useSelector } from 'react-redux'
+import ProductSkeleton from '../../../../UI/ProductSkeleton/ProductSkeleton'
 import { fetchTopProducts } from '../../../../redux/slices/topProductsSlice'
 import ProductBlock from '../../../ProductBlock/ProductBlock'
 import s from "./Trending.module.css"
@@ -37,7 +38,16 @@ const Trending = () => {
 					:
 					<ul>
 						{status === 'Loading'
-							? <div>Loading...</div>
+							? <div className={s.list}>
+								<ProductSkeleton />
+								<ProductSkeleton />
+								<ProductSkeleton />
+								<ProductSkeleton />
+								<ProductSkeleton />
+								<ProductSkeleton />
+								<ProductSkeleton />
+								<ProductSkeleton />
+							</div>
 							: <div className={s.list}>
 								{activeId === 0 && (
 									topProducts.map((obj) => (

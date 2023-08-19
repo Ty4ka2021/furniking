@@ -1,8 +1,12 @@
-.ProductBlock {}
+.content {
+	height: 360px;
+	max-width: 278px;
+	display: flex;
+	flex-direction: column;
+}
 
 .imgBox {
 	height: 240px;
-	width: 100%;
 	margin-bottom: 15px;
 }
 
@@ -49,15 +53,5 @@
 }
 
 .btn {
-	display: flex;
-	background-color: var(--color-green);
-	border: transparent;
-	border-radius: 6px;
-	padding: 10px 20px;
-	color: var(--color-white);
-	cursor: pointer;
-}
-
-.btn:hover {
-	color: var(--color-black);
+	margin-top: auto;
 }

@@ -1,12 +1,15 @@
-import React, { useState } from "react"
+import React from "react"
 import { useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 import Header from '../../components/Header/Header'
 import s from "./Cart.module.css"
 import CartItem from './CartItem/CartItem'
+import CartSvg from './img/modal-cart-dummy.svg'
 
 const Cart = () => {
 	const items = useSelector(state => state.cart.cart)
 	const totalPrice = useSelector(state => state.cart.totalPrice)
+	const navigate = useNavigate()
 
 	return (
 		<div className={s.Cart}>
@@ -25,13 +28,15 @@ const Cart = () => {
 									{totalPrice}$
 								</span>
 							</h4>
-							<button className={s.order}>To order</button>
+							<button className='btn'>To order</button>
 						</div>
 					</>
 
 					:
-					<div>
-						Кошик порожній
+					<div className={s.box}>
+						<img className={s.img} src={CartSvg} alt="" />
+						<h3 className={s.text}>Cart is empty</h3>
+						<button onClick={() => navigate('/')} className='btn'>Continue shopping</button>
 					</div>
 				}
 

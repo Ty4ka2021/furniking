@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import { useDispatch, useSelector } from 'react-redux'
+import ProductSkeleton from '../../UI/ProductSkeleton/ProductSkeleton'
 import Header from '../../components/Header/Header'
 import ProductBlock from '../../components/ProductBlock/ProductBlock'
 import { fetchProducts } from '../../redux/slices/productsSlice'
@@ -15,6 +16,7 @@ const Shop = () => {
 
 	const items = products.map((obj) => (
 		<ProductBlock {...obj} />
+
 	))
 
 	useEffect(() => {
@@ -31,12 +33,24 @@ const Shop = () => {
 			{status === 'Error'
 				? <div>Error</div>
 				: <div className='container'>
-					<ul className={s.list}>
-						{status === 'Loading'
-							? <div>Loading...</div>
-							: items
-						}
-					</ul>
+					{status === 'Loading'
+						?
+						<ul className={s.list}>
+							<ProductSkeleton />
+							<ProductSkeleton />
+							<ProductSkeleton />
+							<ProductSkeleton />
+							<ProductSkeleton />
+							<ProductSkeleton />
+							<ProductSkeleton />
+							<ProductSkeleton />
+
+						</ul>
+						:
+						<ul className={s.list}>
+							{items}
+						</ul>
+					}
 				</div>
 			}
 			shop
