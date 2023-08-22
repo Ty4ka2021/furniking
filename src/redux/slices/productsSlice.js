@@ -10,14 +10,6 @@ export const fetchProducts = createAsyncThunk(
 	}
 )
 
-export const fetchProduct = createAsyncThunk(
-	'products/fetchStatus', async (id) => {
-		const { data } = await axios.get(`${API}/${id}`)
-		return data
-	}
-)
-
-
 const initialState = {
 	products: [],
 	status: 'Loading'
