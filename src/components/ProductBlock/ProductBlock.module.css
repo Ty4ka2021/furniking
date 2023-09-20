@@ -1,8 +1,28 @@
+.ProductBlock {
+	position: relative;
+}
+
 .content {
 	height: 360px;
 	max-width: 278px;
 	display: flex;
 	flex-direction: column;
+}
+
+.favoriteSvg {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--color-green-light);
+	padding: 5px;
+	cursor: pointer;
+}
+
+.favoriteSvg:hover {
+	background-color: var(--color-green);
 }
 
 .imgBox {

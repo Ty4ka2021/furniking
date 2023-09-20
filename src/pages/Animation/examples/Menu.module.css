@@ -1,0 +1,21 @@
+.Menu {
+	display: flex;
+	background-color: #eee;
+	padding: 1rem;
+	border-radius: 25px;
+}
+
+.MenuItem {
+	padding: 0 0.5rem;
+	font-weight: 900;
+	cursor: pointer;
+	position: relative;
+}
+
+.ActiveLine {
+	width: 100%;
+	height: 4px;
+	position: absolute;
+	bottom: -6px;
+	background-color: rgb(255, 0, 0);
+}

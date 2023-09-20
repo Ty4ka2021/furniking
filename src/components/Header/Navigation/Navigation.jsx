@@ -19,6 +19,7 @@ const Navigation = () => {
 						<Link onClick={() => dispatch(setCategoryId(0))} className={location.pathname === '/shop' ? s.active : ''} to='/shop'>Shop</Link>
 						<Link className={location.pathname === '/blog' ? s.active : ''} to='/blog'>Blog</Link>
 						<Link className={location.pathname === '/about' ? s.active : ''} to='/about'>About</Link>
+						<Link className={location.pathname === '/animation' ? s.active : ''} to='/animation'>Animation</Link>
 						<Link className={location.pathname === '/contact' ? s.active : ''} to='/contact'>Contact us</Link>
 					</nav>
 				</div>

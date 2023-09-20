@@ -28,12 +28,13 @@
 }
 
 .btnDisabled {
-	background-color: var(--color-green-light);
-	cursor: default;
+	background-color: var(--color-green-light) !important;
+	cursor: default !important;
 }
 
 .btnDisabled:hover {
-	background-color: var(--color-green-light);
+	background-color: var(--color-green-light) !important;
+
 }
 
 .count {

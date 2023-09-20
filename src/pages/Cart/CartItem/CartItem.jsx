@@ -8,8 +8,12 @@ const CartItem = ({ id, title, price, oldPrice, imageUrl, count }) => {
 	const dispatch = useDispatch()
 
 	const removeFromCartClick = (id) => {
-		dispatch(removeFromCart(id))
+		if (window.confirm('Remove the product from the shopping cart?')) {
+			dispatch(removeFromCart(id))
+		}
+
 	}
+
 	return (
 		<div className={s.CartItem}>
 			<img className={s.img} src={imageUrl} alt="" />
